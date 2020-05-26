@@ -45,7 +45,7 @@ body{
 margin:0;
 padding:0 0 0 0;
 color:#000;
-background:#efefef url(css/img/gray_jean.png);
+background:#efefef url(images/orangelogo.jpg);
 font:normal 0.9em/150% 'Arimo', arial, verdana, sans-serif;
 text-shadow: 0 0 1px transparent; /* google font pixelation fix */
 }
@@ -77,14 +77,44 @@ background:#fff;
 	display:none;
 	}
 
+.fixed {
+	position: fixed;
+	top: 0;
+	left: 50%;
+	transform: translateX(-50%);
+	
+	width: 80%;
+}
+
+.menu {
+	background: none;
+	background-color: #000;
+	border: none;
+}
+
+.menu li a {
+	text-shadow: none;
+	color: #fff;
+}
+
+.menu li.current>a, .menu li.current>a:hover, .menu li.current.hover>a {
+	background: none;
+	background-color: #9D703E;
+	color: #000;
+}
+
+.menu li a:hover, .menu li.hover>a {
+	background: #7B501F;
+}
+
 /* NAV BAR*/
 .navbar{
 position:fixed;
 top:0;
 left:0;
 width: 100%;
-background:#000;
-color:#fff;
+/*background:#000;
+color:#fff;*/
 z-index:1000;
 }
 
