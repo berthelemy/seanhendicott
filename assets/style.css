@@ -20,8 +20,8 @@ html {
 section::before { 
   display: block; 
   content: " "; 
-  margin-top: -50px; 
-  height: 50px; 
+  margin-top: -55px; 
+  height: 55px; 
   visibility: hidden; 
   pointer-events: none;
 }
@@ -34,6 +34,10 @@ font-weight:normal;
 thead th,
 tbody th{
 font-family: "Arimo", arial, verdana, sans-serif;
+}
+
+strong {
+	color: #fff;
 }
 
 button,
@@ -94,10 +98,10 @@ background:#fff;
 .fixed {
 	position: fixed;
 	top: 0;
-	left: 50%;
-	transform: translateX(-50%);
+	left: 0;
+	width: 100%;
+	z-index:9999;
 	
-	width: 80%;
 }
 
 .menu {
