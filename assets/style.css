@@ -15,13 +15,14 @@
 
 html {
 	scroll-behavior: smooth;
+	overflow-x: hidden;
 }
 
 section::before { 
   display: block; 
   content: " "; 
-  margin-top: -55px; 
-  height: 55px; 
+  margin-top: -45px; 
+  height: 45px; 
   visibility: hidden; 
   pointer-events: none;
 }
@@ -54,6 +55,11 @@ font-family: "Arimo", arial, verdana, sans-serif;
 
 blockquote{
 font-family: "Arimo", arial, verdana, sans-serif;
+font-size: 1em;
+}
+
+section {
+	overflow: hidden;
 }
 
 /*---------------------------------
@@ -63,7 +69,7 @@ body{
 margin:0;
 padding:0 0 0 0;
 color:#fff;
-background:#efefef url(images/orangelogo.jpg);
+overflow-x: hidden;
 font:normal 0.9em/150% 'Arimo', arial, verdana, sans-serif;
 text-shadow: 0 0 1px transparent; /* google font pixelation fix */
 }
@@ -106,7 +112,7 @@ background:#fff;
 
 .menu {
 	background: none;
-	background-color: #000;
+	background-color: #170400;
 	border: none;
 }
 
@@ -126,7 +132,39 @@ background:#fff;
 }
 
 #banner {
-	margin-top: 50px;
+	margin-top: 2px;
+	
+	background:#efefef url(images/orangelogo.jpg);
+}
+
+.background1 {
+	background-color: #170400;
+}
+
+.background2 {
+	background-color: #2C0012;
+}
+
+.background3 {
+	background-color: #9D703E;
+}
+
+.square {
+	position: relative;
+	width: 100%;
+	padding-bottom: 100%;
+	overflow: hidden;
+}
+
+.squareImg {
+	position: absolute;
+}
+
+.wide {
+	margin-left:-9999rem;
+	margin-right:-9999rem;
+  /* add back negative margin value */
+  padding: 2rem 9999rem;
 }
 
 /* NAV BAR*/
