@@ -19,16 +19,20 @@
 <div class="grid">
     
         {% include navbar.html %}
-    
-    <section id="banner" class="wide">
-        <div class="col_12">
-            <h1 class="center">
-            <p><i class="fa fa-fire"></i></p>
-            {{ site.title }}</h1>
-            <h4 style="color:#999;margin-bottom:40px;" class="center">{{ site.description }}</h4>
-        </div>
-    </section>
-    <section id="about" class="background1 wide">
+    <div class="full-height">
+        <section id="banner" class="wide full-height">
+            <div class="col_12">
+                <h1>
+                {{ site.title }}</h1>
+                <h4 style="margin-bottom:40px;">{{ site.description }}</h4>
+            </div>
+            
+            <div class="col_12">
+                <a href="#about" class="fire button">Find out more</a>
+            </div>
+        </section>
+    </div>
+    <section id="about" class="full-height background1 wide">
         <div class="col_12">
             <h2 class="center">About</h2>
         </div>
@@ -48,13 +52,17 @@
         </div>
     </section>
     <section id="services" class="background2 wide">
+        <div class="col_12 center" id="newsflash">
+                <p>Salle d'exposition ouvert sur rdv pour les cuisinieres ESSE en bois, fioul, electrique et poëles à granules</p> 
+                <p>Showroom open by appointment for ESSE cookers - wood, oil, electric &amp; wood granules</p>
+            </div>
         <div class="col_12">
             <h2 class="center">Services</h2>
             <p class="center">All work is carried out ourselves to a very high standard and to French Normes (NF)</p>
         </div>
         <div class="col_6">
-            <ul>
             <p>All equipment supplied and fitted</p>
+            <ul>
                 <li>Wood burners</li>
                 <li>Pellet Burners</li>
                 <li>Wood/Oil/Gas or Electric range cookers</li>
