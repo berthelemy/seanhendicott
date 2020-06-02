@@ -34,17 +34,17 @@ jQuery(document).ready(function($){
 		video: true,
 		useCSS: true,
 		pager: true,
-		speed: 500, // transition time
+		speed: 400, // transition time
 		startSlide: 0,
 		infiniteLoop: true,
 		captions: true,
 		adaptiveHeight: false,
 		touchEnabled: true,
-		pause: 4000,
-		autoControls: false,
-		controls: false,
-		autoStart: true,
-		auto: true
+		pause: 8000,
+		autoControls: true,
+		controls: true,
+		autoStart: false,
+		auto: false
 	});
 
 	/*---------------------------------
