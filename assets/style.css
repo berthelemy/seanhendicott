@@ -72,12 +72,16 @@ font-family: "Arimo", arial, verdana, sans-serif;
 	color: #111;
 }
 
+.slideshow h4, .slideshow p {
+	width: 80%;
+}
+
 blockquote{
 	font-family: "Arimo", arial, verdana, sans-serif;
 	font-style: normal;
 	line-height: 2.2em;
 	font-size: 1em;
-	width: 80%;
+	width: 70%;
 	background: #f9f9f9;
 	border-left: 10px solid #ccc;
 	/*margin: 1.5em 10px;*/
@@ -310,8 +314,16 @@ background:#fff;
 }
 
 .background3 {
-	background-color: #9D703E;
+	background-color: #9D503E;
 }
+
+.smallsquare {
+	width: 100px;
+	height: 100px;
+	display:inline-block;
+}
+
+
 
 .square {
 	position: relative;

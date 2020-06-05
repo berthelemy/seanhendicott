@@ -133,25 +133,72 @@
     <section id="photos" class="background1 wide">
         <div class="col_12">
             <h2 class="center">Photos</h2>
-<div class="gallery center">
-{% for image in site.static_files %}
-    {% if image.path contains 'assets/photos/gallery' %}
-    {{ image.path }}
-        <a href="{{ site.baseurl }}{{ image.path }}"><img title="{{ image.basename }}" src="{{ site.baseurl }}{{ image.path }}" width="100" height="100" alt="{{ image.basename }}" />
-    {% endif %}
-{% endfor %}
-</div>
-
+            <h3 class="center">Woodburners</h3>
             <div class="gallery center">
-                <a href="http://placehold.it/600x450/4D99E0/ffffff.png&text=600x450"><img src="http://placehold.it/100x100/4D99E0/ffffff.png&text=100x100" width="100" height="100" /></a>
-                <a href="http://placehold.it/600x450/75CC00/ffffff.png&text=600x450"><img src="http://placehold.it/100x100/75CC00/ffffff.png&text=100x100" width="100" height="100" /></a>
-                <a href="http://placehold.it/600x450/E49800/ffffff.png&text=600x450"><img src="http://placehold.it/100x100/E49800/ffffff.png&text=100x100" width="100" height="100" /></a>
-                <a href="http://placehold.it/600x450/E4247E/ffffff.png&text=600x450"><img src="http://placehold.it/100x100/E4247E/ffffff.png&text=100x100" width="100" height="100" /></a>
-                <a href="http://placehold.it/600x450/00C6E4/ffffff.png&text=600x450"><img src="http://placehold.it/100x100/00C6E4/ffffff.png&text=100x100" width="100" height="100" /></a>
-                <a href="http://placehold.it/600x450/E4DB0F/ffffff.png&text=600x450"><img src="http://placehold.it/100x100/E4DB0F/ffffff.png&text=100x100" width="100" height="100" /></a>
-                <a href="http://placehold.it/600x450/7400E4/ffffff.png&text=600x450"><img src="http://placehold.it/100x100/7400E4/ffffff.png&text=100x100" width="100" height="100" /></a>
-                <a href="http://placehold.it/600x450/C50000/ffffff.png&text=600x450"><img src="http://placehold.it/100x100/C50000/ffffff.png&text=100x100" width="100" height="100" /></a>
+            {% for image in site.static_files %}
+                {% if image.path contains 'assets/photos/gallery-wood-burners' %}
+                <div class="smallsquare">
+                    <a href="{{ site.baseurl }}{{ image.path }}"><img title="{{ image.basename }}" src="{{ site.baseurl }}{{ image.path }}" class="constrain-img" alt="{{ image.basename }}" /></a>
+                </div>
+                {% endif %}
+            {% endfor %}
             </div>
+            <h3 class="center">Chimneys</h3>
+            <div class="gallery center">
+            {% for image in site.static_files %}
+                {% if image.path contains 'assets/photos/gallery-chimneys' %}
+                    <div class="smallsquare">
+                    
+                        <a href="{{ site.baseurl }}{{ image.path }}"><img title="{{ image.basename }}" src="{{ site.baseurl }}{{ image.path }}" class="constrain-img" alt="{{ image.basename }}" /></a>
+                    
+                </div>
+                {% endif %}
+            {% endfor %}
+            </div>
+
+            <h3 class="center">Fireplaces</h3>
+            <div class="gallery center">
+            {% for image in site.static_files %}
+                {% if image.path contains 'assets/photos/gallery-fireplaces' %}
+                    <div class="smallsquare">
+                    <a href="{{ site.baseurl }}{{ image.path }}"><img title="{{ image.basename }}" src="{{ site.baseurl }}{{ image.path }}" class="constrain-img" alt="{{ image.basename }}" /></a>
+                </div>
+                {% endif %}
+            {% endfor %}
+            </div>
+
+            <h3 class="center">Ground source heat pumps</h3>
+            <div class="gallery center">
+            {% for image in site.static_files %}
+                {% if image.path contains 'assets/photos/gallery-ground-source' %}
+                <div class="smallsquare">
+                    <a href="{{ site.baseurl }}{{ image.path }}"><img title="{{ image.basename }}" src="{{ site.baseurl }}{{ image.path }}" class="constrain-img" alt="{{ image.basename }}" /></a>
+                </div>
+                {% endif %}
+            {% endfor %}
+            </div>
+            <h3 class="center">Oil boilers</h3>
+            <div class="gallery center">
+            {% for image in site.static_files %}
+                {% if image.path contains 'assets/photos/gallery-oil-boilers' %}
+                <div class="smallsquare">
+                    <a href="{{ site.baseurl }}{{ image.path }}"><img title="{{ image.basename }}" src="{{ site.baseurl }}{{ image.path }}" class="constrain-img" alt="{{ image.basename }}" /></a>
+                </div>
+                {% endif %}
+            {% endfor %}
+            </div>
+            <h3 class="center">Underfloor heating</h3>
+            <div class="gallery center">
+            {% for image in site.static_files %}
+                {% if image.path contains 'assets/photos/gallery-underfloor' %}
+                <div class="smallsquare">
+                    <a href="{{ site.baseurl }}{{ image.path }}"><img title="{{ image.basename }}" src="{{ site.baseurl }}{{ image.path }}" class="constrain-img" alt="{{ image.basename }}" /></a>
+                </div>
+                {% endif %}
+            {% endfor %}
+            </div>
+            
+
             
         </div>
     </section>
