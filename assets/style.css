@@ -115,6 +115,10 @@ section, footer {
 	overflow: hidden;
 }
 
+.small {
+	font-size: .8em;
+}
+
 img#FBlogo {
 	width: 80%;
 }
