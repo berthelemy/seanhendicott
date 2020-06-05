@@ -139,7 +139,7 @@ font:normal 0.9em/150% 'Arimo', arial, verdana, sans-serif;
 text-shadow: 0 0 1px transparent; /* google font pixelation fix */
 }
 
-p, li, td {
+p, li, td, label {
 	font-size: 1.2em;
 }
 
