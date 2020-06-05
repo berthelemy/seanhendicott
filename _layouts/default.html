@@ -39,16 +39,20 @@
         
         <div class="col_8">
             
-            <p>Sean began his career 35 years ago in Cornwall with a 5 year apprenticeship in plant &amp; machinery, hydraulic engineering and electrical.</p>
+            <p>Sean is able to offer sound advice and system design on most aspects of heating systems for the home.</p>
+            <p>He began his career 35 years ago in Cornwall with a 5 year apprenticeship in plant &amp; machinery, hydraulic engineering and electrical.</p>
             <p>From there he worked and became self employed in the UK as a plant fitter and hydraulic engineer for 17 years.</p>
             <p>Sensing a change was due, he returned to college to study Oil Fired Boilers and unvented hot water systems. After gaining his tickets, he became OFTEC registered and set out as an oil central heating &amp; system design engineer in the UK.</p>
             <p>After an exciting move to France in 2003, the French 'chambre des metiers' recognised his UK qualifications. So he began to specialise in all aspects of French heating - with an especially keen interest in renewable energy and 'off grid'.</p>
-            <p>He has since completed 'stages' here in France and is now able to offer sound advice and system design on most aspects of heating systems for the home.</p>
+            <p>He has since completed 'stages' here in France.</p>
         </div>
         <div class="col_4">
             <div class="square">
                 <img class="full-width squareImg" src="/assets/photos/sean/P1010637.jpeg" alt="Sean cutting stonework" />
             </div>
+        </div>
+        <div class="col_12 center">
+            <p><a class="button light" href="#contact">Get in touch to discuss your needs</a></p>
         </div>
     </section>
     <section id="products" class="background2 wide">
@@ -57,7 +61,7 @@
         </div>
         <div class="col_6">
             <p>We can supply woodburners and range cookers either from our own stock, or delivered to France.</p>
-            <p>Collect for a DIY installation or ask about our <a href="#services">installation services.</a>.</p>
+            <p>Collect for a DIY installation or ask about our <a href="#services">installation services</a>.</p>
             <p>Salle d'exposition ouvert sur rdv / Showroom open by appointment.</p>
         </div>
         <div class="col_6">
@@ -71,14 +75,18 @@
                 <li><a href="https://www.fabriloriberica.es/fabrilor-iberica.php" target="_blank">Fabrilor</a> - pellet burners</li>
                 <li><a href="https://www.klover.it/en" target="_blank">Klover</a> - pellet burners</li>
             </ul>
+            
+        </div>
+        <div class="col_12 center">
+            <p><a class="button light" href="#contact">Get in touch to discuss your needs</a></p>
         </div>
     </section>
     <section id="services" class="background3 wide">
         
         <div class="col_12">
             <h2 class="center">Services</h2>
-            <p class="center">All work is carried out ourselves to a very high standard and to French Normes (NF)</p>
-            <p class="center">We are based near to Carhaix Plouguer in Department 29 and so we are ideally situated to service departments 22, 29 &amp; 56</p>
+            <p class="center">All work is carried out ourselves to a very high standard and to French Normes (NF).</p>
+            <p class="center">We are based near to Carhaix Plouguer in Department 29.<br />So are ideally situated to service departments 22, 29 &amp; 56.</p>
         </div>
         <div class="col_6">
             <p>All equipment supplied and fitted</p>
@@ -105,6 +113,18 @@
             </ul>
         </div>
         <div class="clear"></div>
+        <div class="col_12">
+            <h3 class="center">Woodburners</h3>
+            <div class="gallery center">
+            {% for image in site.static_files %}
+                {% if image.path contains 'assets/photos/gallery-wood-burners' %}
+                <div class="smallsquare">
+                    <a href="{{ site.baseurl }}{{ image.path }}"><img title="{{ image.basename }}" src="{{ site.baseurl }}{{ image.path }}" class="constrain-img" alt="{{ image.basename }}" /></a>
+                </div>
+                {% endif %}
+            {% endfor %}
+            </div>
+        </div>
         <div class="col_6">
             <h3>Central heating</h3>
             <p>Central heating installations of any kind are possible - you can have whatever you want!</p>
@@ -119,31 +139,24 @@
                 <li>Replacing the fuel nozzle</li>
                 <li>Cleaning all fuel filters</li>
                 <li>Vacuuming the boiler casing &amp; flue exit</li>
-                <li>An emmissions test with print out and Attestation</li>
+                <li>An emissions test with print out and Attestation</li>
             </ul>
             <p><strong>Price: 170&euro; + vat</strong></p>
         </div>
-
+        <div class="clear"></div>
         <div class="col_6">
-            <h3>Ground source heat pumps</h3>
-        </div>
-
-
-
-    </section>
-    <section id="photos" class="background1 wide">
-        <div class="col_12">
-            <h2 class="center">Photos</h2>
-            <h3 class="center">Woodburners</h3>
+            <h3 class="center">Ground source heat pumps</h3>
             <div class="gallery center">
             {% for image in site.static_files %}
-                {% if image.path contains 'assets/photos/gallery-wood-burners' %}
+                {% if image.path contains 'assets/photos/gallery-ground-source' %}
                 <div class="smallsquare">
                     <a href="{{ site.baseurl }}{{ image.path }}"><img title="{{ image.basename }}" src="{{ site.baseurl }}{{ image.path }}" class="constrain-img" alt="{{ image.basename }}" /></a>
                 </div>
                 {% endif %}
             {% endfor %}
             </div>
+        </div>
+        <div class="col_6">
             <h3 class="center">Chimneys</h3>
             <div class="gallery center">
             {% for image in site.static_files %}
@@ -156,7 +169,9 @@
                 {% endif %}
             {% endfor %}
             </div>
-
+        </div>
+        <div class="clear"></div>
+        <div class="col_6">
             <h3 class="center">Fireplaces</h3>
             <div class="gallery center">
             {% for image in site.static_files %}
@@ -167,17 +182,8 @@
                 {% endif %}
             {% endfor %}
             </div>
-
-            <h3 class="center">Ground source heat pumps</h3>
-            <div class="gallery center">
-            {% for image in site.static_files %}
-                {% if image.path contains 'assets/photos/gallery-ground-source' %}
-                <div class="smallsquare">
-                    <a href="{{ site.baseurl }}{{ image.path }}"><img title="{{ image.basename }}" src="{{ site.baseurl }}{{ image.path }}" class="constrain-img" alt="{{ image.basename }}" /></a>
-                </div>
-                {% endif %}
-            {% endfor %}
-            </div>
+        </div>
+        <div class="col_6">
             <h3 class="center">Oil boilers</h3>
             <div class="gallery center">
             {% for image in site.static_files %}
@@ -188,6 +194,8 @@
                 {% endif %}
             {% endfor %}
             </div>
+        </div>
+        <div class="col_12">
             <h3 class="center">Underfloor heating</h3>
             <div class="gallery center">
             {% for image in site.static_files %}
@@ -198,12 +206,14 @@
                 {% endif %}
             {% endfor %}
             </div>
-            
-
-            
+            <p class="center"><a class="button light" href="#contact">Get in touch to discuss your needs</a></p>
         </div>
+
+
+
     </section>
-    <section id="testimonials" class="background3 wide">
+    
+    <section id="testimonials" class="background1 wide">
         <div class="col_12">
             <h2 class="center">Testimonials</h2>
             <ul class="slideshow">
@@ -287,7 +297,7 @@
         </ul>
         </div>
     </section>
-    <section id="contact" class="background1 wide">
+    <section id="contact" class="background2 wide">
     <div class="col_12">
         <h2 class="center">Contact Sean &amp; Karen</h2>
     </div>
