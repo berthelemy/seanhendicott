@@ -1,14 +1,14 @@
 <!-- Javascript -->
    
     <script type="text/javascript" src="{{ 'assets/kickstart/js/kickstart.js' | relative_url }}"></script>
-    <script type="text/javascript" src="{{ 'assets/js/jquery-controls.js' | relative_url }}"></script>
+    <script type="text/javascript" src="{{ 'assets/js/jquery-scroll.js' | relative_url }}"></script>
 
 <script>
 $(document).ready(function(){
     $(function(){
     $('.bxslider').bxSlider({
         mode: 'fade',
-        captions: true,
+        captions: false,
         auto: true,
         autoControls: true,
         stopAutoOnClick: true,
@@ -16,4 +16,8 @@ $(document).ready(function(){
       });
     });
 });
+
+$( document ).ready(function() { // Tells the function to wait to preform until everything on the page has loaded.
+        $('a[href^="http"]').attr('target','_blank');
+        });
 </script>

@@ -2,8 +2,19 @@
 <body>
 <div class="grid">
     
+        
+        {% capture pagelang %}{{ page.language }}{% endcapture %}
+        {% if page.title == "switcher" %}
+        
+        <section id="banner" class="wide full-height">
+            <div class="col_12">
+                <h1>
+                {{ site.title }}</h1>
+                <h4 style="margin-bottom:40px;"><a href="{{ site.baseurl }}/fr/">Français</a> | <a href="{{ site.baseurl }}/en/">English</a></h4>
+            </div>
+        </section>
+        {% else %}
         {% include navbar.html %}
-    
         <section id="banner" class="wide full-height">
             <div class="col_12">
                 <h1>
@@ -15,6 +26,9 @@
                 <a href="#about" class="fire button">{{ site.t[lang].find-out.name }}</a>
             </div>
         </section>
+        {% endif %}
+        
+
 
         {{ content }}
         

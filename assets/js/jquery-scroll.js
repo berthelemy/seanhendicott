@@ -51,8 +51,3 @@ $( document ).ready(function() { // Tells the function to wait to preform until 
             }
         });
 });
-
-
-$( document ).ready(function() { // Tells the function to wait to preform until everything on the page has loaded.
-        $('a[href^="http"]').attr('target','_blank');
-        });
