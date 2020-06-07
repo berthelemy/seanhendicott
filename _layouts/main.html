@@ -1,0 +1,77 @@
+---
+layout: default
+---
+        {% capture pagelang %}{{ page.language }}{% endcapture %}
+        {% assign sections=site.sections | where:"lang", pagelang %}
+        {% for s in sections %}
+            <section id="{{ s.ref }}" class="{{ s.section-class }} {{ s.background }} wide">
+                <div class="col_12">
+                    <h2 class="center">{{ s.title }}</h2>
+                </div>
+                
+                {% if s.section-image %}
+                    {% if s.img-side == 'right' %}
+                        <div class="col_8">
+                            {% include content.html %}
+                        </div>
+                        <div class="col_4">
+                            <div class="square">
+                                <img class="full-width squareImg" src="{{ s.section-image | relative_url }}" alt="{{ img-alt }}" />
+                            </div>
+                        </div>
+                    {% else if s.img-side == 'left %}
+                        <div class="col_4">
+                            <div class="square">
+                                <img class="full-width squareImg" src="{{ s.section-image | relative_url }}" alt="{{ img-alt }}" />
+                            </div>
+                        </div>
+                        <div class="col_8">
+                            {% include content.html %}
+                        </div>
+                    {% endif %}
+                    {% else %}
+                        <div class="12">
+                            {% include content.html %}
+                        </div>
+                    
+                {% endif %}
+                <div class="col_12 center">
+
+            <p><a class="button {{ s.contact-button-class }}" href="#contact">{{ site.t[pagelang].get-in-touch.name }}</a></p>
+        </div>
+            </section>
+        {% endfor %}
+    
+
+    <section id="contact" class="background2 wide">
+    <div class="col_12">
+        <h2 class="center">{{ site.t[pagelang].contact.name }}</h2>
+    </div>
+    <div class="col_6">
+        <form class="vertical" action="https://formspree.io/mpzydkwj" method="POST">
+            <label>{{ site.t[pagelang].email.name }}: <input type="text" name="_replyto"></label>
+            <label>{{ site.t[pagelang].phone.name }}: <input type="text" name="_phone"></label>
+            <label>{{ site.t[pagelang].message.name }}: <textarea name="message"></textarea></label>
+            <input type="hidden" name="_subject" value="[Website message]" />
+            <input type="text" name="_gotcha" style="display:none" />
+
+            <button class="button light" type="submit">{{ site.t[pagelang].send.name }}</button>
+        </form>
+    </div>
+    <div class="col_6 center">
+        <p><i class="fa fa-phone"></i> {{ site.t[pagelang].landline.name }}: <a href="tel:+33(0)298935589">+33 (0)2 98 93 55 89</a></p>
+        <p><i class="fa fa-mobile"></i> {{ site.t[pagelang].s-mobile.name }}: <a href="tel:+33 (0)665652501">+33 (0)6 65 65 25 01</a></p>
+        <p><i class="fa fa-mobile"></i> {{ site.t[pagelang].k-mobile.name }}: <a href="tel:+33 (0)659006612">+33 (0)6 59 00 66 12</a></p>
+        <p><i class="fa fa-envelope"></i> <a href="mailto:karen.hendicott@wanadoo.fr">karen.hendicott@wanadoo.fr</a></p>
+        <p><i class="fa fa-envelope"></i> <a href="mailto:sean.hendicott@wanadoo.fr">sean.hendicott@wanadoo.fr</a></p>
+
+        <p><i class="fa fa-facebook"></i> <a href="https://www.facebook.com/seanhendicott/" target="_blank">{{ site.t[pagelang].facebook.name }}</a></p>
+    
+    </div>
+
+</section>
+    {% include footer_{{ pagelang }}.html %}
+</div> <!-- End Grid -->
+{% include javascripts.html %}
+</body>
+</html>

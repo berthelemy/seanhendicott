@@ -1,6 +1,5 @@
 ---
-layout: default
+layout: main
 language: fr
-test: test
 permalink: /fr/
 ---
