@@ -1,5 +1,5 @@
 ---
 layout: default
-lang: en
+language: en
 title: switcher
 ---
