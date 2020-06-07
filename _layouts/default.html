@@ -8,16 +8,14 @@
             <div class="col_12">
                 <h1>
                 {{ site.title }}</h1>
-                <h4 style="margin-bottom:40px;">{{ site.t.[lang].description.name }}</h4>
+                <h4 style="margin-bottom:40px;">{{ site.t[lang].description.name }}</h4>
             </div>
             
             <div class="col_12">
-                <a href="#about" class="fire button">{{ site.t.[lang].find-out.name }}</a>
+                <a href="#about" class="fire button">{{ site.t[lang].find-out.name }}</a>
             </div>
         </section>
         
-        
-        {% assign test = page.test %}
         {% assign sections=site.sections | where:"lang", page.language %}
         {% for s in sections %}
             <section id="{{ s.ref }}" class="{{ s.section-class }} {{ s.background }} wide">
@@ -53,7 +51,7 @@
                 {% endif %}
                 <div class="col_12 center">
 
-            <p><a class="button {{ s.contact-button-class }}" href="#contact">{{ site.t.[lang].get-in-touch.name }}</a></p>
+            <p><a class="button {{ s.contact-button-class }}" href="#contact">{{ site.t[lang].get-in-touch.name }}</a></p>
         </div>
             </section>
         {% endfor %}
@@ -61,27 +59,27 @@
 
     <section id="contact" class="background2 wide">
     <div class="col_12">
-        <h2 class="center">Contact Sean &amp; Karen</h2>
+        <h2 class="center">{{ site.t[lang].contact.name }}</h2>
     </div>
     <div class="col_6">
         <form class="vertical" action="https://formspree.io/mpzydkwj" method="POST">
-            <label>Your email: <input type="text" name="_replyto"></label>
-            <label>Your phone number: <input type="text" name="_phone"></label>
-            <label>Your message: <textarea name="message"></textarea></label>
+            <label>{{ site.t[lang].email.name }}: <input type="text" name="_replyto"></label>
+            <label>{{ site.t[lang].phone.name }}: <input type="text" name="_phone"></label>
+            <label>{{ site.t[lang].message.name }}: <textarea name="message"></textarea></label>
             <input type="hidden" name="_subject" value="[Website message]" />
             <input type="text" name="_gotcha" style="display:none" />
 
-            <button class="button light" type="submit">Send</button>
+            <button class="button light" type="submit">{{ site.t[lang].send.name }}</button>
         </form>
     </div>
     <div class="col_6 center">
-        <p><i class="fa fa-phone"></i> Landline: <a href="tel:+33(0)298935589">+33 (0)2 98 93 55 89</a></p>
-        <p><i class="fa fa-mobile"></i> Sean's mobile: <a href="tel:+33 (0)665652501">+33 (0)6 65 65 25 01</a></p>
-        <p><i class="fa fa-mobile"></i> Karen's mobile: <a href="tel:+33 (0)659006612">+33 (0)6 59 00 66 12</a></p>
+        <p><i class="fa fa-phone"></i> {{ site.t[lang].landline.name }}: <a href="tel:+33(0)298935589">+33 (0)2 98 93 55 89</a></p>
+        <p><i class="fa fa-mobile"></i> {{ site.t[lang].s-mobile.name }}: <a href="tel:+33 (0)665652501">+33 (0)6 65 65 25 01</a></p>
+        <p><i class="fa fa-mobile"></i> {{ site.t[lang].k-mobile.name }}: <a href="tel:+33 (0)659006612">+33 (0)6 59 00 66 12</a></p>
         <p><i class="fa fa-envelope"></i> <a href="mailto:karen.hendicott@wanadoo.fr">karen.hendicott@wanadoo.fr</a></p>
         <p><i class="fa fa-envelope"></i> <a href="mailto:sean.hendicott@wanadoo.fr">sean.hendicott@wanadoo.fr</a></p>
 
-        <p><a href="https://www.facebook.com/seanhendicott/" target="_blank"><img id="FBlogo" src="{{ 'assets/images/FindUsOn_Header_2019.png' | relative_url }}" alt="Find us on Facebook" /></a></p>
+        <p><i class="fa fa-facebook"></i> <a href="https://www.facebook.com/seanhendicott/" target="_blank">{{ site.t[lang].facebook.name }}</a></p>
     
     </div>
 

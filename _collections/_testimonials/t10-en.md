@@ -1,4 +1,5 @@
 ---
+lang: en
 name: 'Jan Davies, Locquemeau'
 description: ''
 text: From specifying the Jolly Mec model of pellet burner, placing the order and handling the delivery, we had every confidence that we were in safe and professional hands. For us there was no admin and no worries, every aspect was taken care of and all commitments met without hesitation. Sean's installation was completed to the highest standards with an impressive attention to detail and cleanliness. We are absolutely delighted with the Jolly Mec pellet burner and the results of a faultless installation.

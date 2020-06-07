@@ -2,7 +2,8 @@
 {% if s.testimonials == true %}
     
     <ul class="slideshow">
-    {% for testimonial in site.testimonials %}
+    {% assign testimonials = site.testimonials | where: "lang", page.language %}
+    {% for testimonial in testimonials %}
         <li>
             <h4>{{ testimonial.name }}</h4>
             <p>{{ testimonial.description }}</p>

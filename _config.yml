@@ -70,6 +70,7 @@ t:
       url: "#testimonials"
     contact:
       name: "Contact"
+      title: "Contact Sean &amp; Karen"
       url: "#contact"
     description:
       name: "Heating and hot water specialist in Brittany, France"
@@ -77,6 +78,22 @@ t:
       name: "Find out more"
     get-in-touch:
       name: "Get in touch to discuss your needs"
+    email:
+      name: "Your email"
+    phone:
+      name: "Your phone number"
+    message:
+      name: "Your message"
+    send:
+      name: "Send"
+    landline:
+      name: "Landline"
+    s-mobile:
+      name: "Sean's mobile"
+    k-mobile:
+      name: "Karen's mobile"
+    facebook:
+      name: "Find us on Facebook"
   fr:
     home:
       name: "Accueil"
@@ -95,6 +112,7 @@ t:
       url: "#temoinages"
     contact:
       name: "Contact"
+      title: "Contact Sean &amp; Karen"
       url: "#contact"
     description:
       name: "Spécialiste du chauffage et de l'eau chaude en Bretagne, France"
@@ -102,3 +120,20 @@ t:
       name: "En savoir plus"
     get-in-touch:
       name: "Contactez-nous pour discuter de vos besoins"
+    email:
+      name: "Votre mail"
+    phone:
+      name: "Votre numéro telephone"
+    message:
+      name: "Votre message"
+    send:
+      name: "Envoyer"
+    landline:
+      name: "Ligne fixe"
+    s-mobile:
+      name: "Mobile de Sean"
+    k-mobile:
+      name: "Mobile de Karen"
+    facebook:
+      name: "Retrouvez-nous sur Facebook"
+
