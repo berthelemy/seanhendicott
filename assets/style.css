@@ -68,7 +68,7 @@ font-family: "Arimo", arial, verdana, sans-serif;
 }
 
 .slideshow {
-	font-size: 0.7em;
+	font-size: 0.75em;
 }
 
 .slideshow li {
@@ -397,6 +397,14 @@ background:#fff;
 	margin: 15px auto;
 	max-width: 600px;
 
+}
+
+.lang-select {
+	position: fixed;
+	top: 10px;
+	left: 82%;
+	color: #eee;
+	z-index: 9999;
 }
 
 /* NAV BAR*/

@@ -1,0 +1,9 @@
+<div class="gallery center">
+            {% for image in site.static_files %}
+                {% if image.path contains 'assets/photos/gallery-wood-burners' %}
+                <div class="smallsquare">
+                    <a href="{{ site.baseurl }}{{ image.path }}"><img title="{{ image.basename }}" src="{{ site.baseurl }}{{ image.path }}" class="constrain-img" alt="{{ image.basename }}" /></a>
+                </div>
+                {% endif %}
+            {% endfor %}
+            </div>

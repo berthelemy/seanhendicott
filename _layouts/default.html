@@ -1,303 +1,64 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <!-- META -->
-    <title>{{ site.title }}</title>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <meta name="description" content="{{ site.description }}" />
-    
-    <!-- CSS -->
-
-    <link rel="stylesheet" type="text/css" href="{{ 'assets/kickstart/css/kickstart.css' | relative_url }}" media="all" />
-    <link rel="stylesheet" type="text/css" href="{{ 'assets/style.css' | relative_url }}" media="all" /> 
-
-     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-    
-
-</head>
+{% include head.html %}
 <body>
 <div class="grid">
     
         {% include navbar.html %}
-    <div class="full-height">
+    
         <section id="banner" class="wide full-height">
             <div class="col_12">
                 <h1>
                 {{ site.title }}</h1>
-                <h4 style="margin-bottom:40px;">{{ site.description }}</h4>
+                <h4 style="margin-bottom:40px;">{{ site.t.[lang].description.name }}</h4>
             </div>
             
             <div class="col_12">
-                <a href="#about" class="fire button">Find out more</a>
+                <a href="#about" class="fire button">{{ site.t.[lang].find-out.name }}</a>
             </div>
         </section>
-    </div>
-    <section id="about" class="full-height background1 wide">
-        <div class="col_12">
-            <h2 class="center">About</h2>
-        </div>
         
-        <div class="col_8">
-            
-            <p>Sean is able to offer sound advice and system design on most aspects of heating systems for the home.</p>
-            <p>He began his career 35 years ago in Cornwall with a 5 year apprenticeship in plant &amp; machinery, hydraulic engineering and electrical.</p>
-            <p>From there he worked and became self employed in the UK as a plant fitter and hydraulic engineer for 17 years.</p>
-            <p>Sensing a change was due, he returned to college to study Oil Fired Boilers and unvented hot water systems. After gaining his tickets, he became OFTEC registered and set out as an oil central heating &amp; system design engineer in the UK.</p>
-            <p>After an exciting move to France in 2003, the French 'chambre des metiers' recognised his UK qualifications. So he began to specialise in all aspects of French heating - with an especially keen interest in renewable energy and 'off grid'.</p>
-            <p>He has since completed 'stages' here in France.</p>
-        </div>
-        <div class="col_4">
-            <div class="square">
-                <img class="full-width squareImg" src="{{ 'assets/photos/sean/P1010637.jpeg' | relative_url }}" alt="Sean cutting stonework" />
-            </div>
-        </div>
-        <div class="col_12 center">
-            <p><a class="button light" href="#contact">Get in touch to discuss your needs</a></p>
-        </div>
-    </section>
-    <section id="products" class="background2 wide">
-        <div class="col_12">
-            <h2 class="center">Products</h2>
-        </div>
-        <div class="col_6">
-            <p>We can supply woodburners and range cookers either from our own stock, or delivered to France.</p>
-            <p>Collect for a DIY installation or ask about our <a href="#services">installation services</a>.</p>
-            <p>Salle d'exposition ouvert sur rdv / Showroom open by appointment.</p>
-        </div>
-        <div class="col_6">
-            <p>We recommend the following manufacturers:</p>
-            <ul>
-                <li><a href="https://www.hunterstoves.co.uk/" target="_blank">Hunter Stoves</a> - wood burning fires with or without back boilers</li>
-                <li><a href="https://www.esse.com/" target="_blank">Esse</a> - wood burning stoves</li>
-                <li><a href="https://burley.co.uk/" target="_blank">Burley</a> - wood burning stoves</li>
-                <li><a href="https://firebird.uk.com/" target="_blank">Firebird</a> - oil fired boilers</li>
-                <li><a href="https://jolly-mec.it/en/products" target="_blank">Jolly Mec</a> - pellet burners</li>
-                <li><a href="https://www.fabriloriberica.es/fabrilor-iberica.php" target="_blank">Fabrilor</a> - pellet burners</li>
-                <li><a href="https://www.klover.it/en" target="_blank">Klover</a> - pellet burners</li>
-            </ul>
-            
-        </div>
-        <div class="col_12 center">
-            <p><a class="button light" href="#contact">Get in touch to discuss your needs</a></p>
-        </div>
-    </section>
-    <section id="services" class="background3 wide">
         
-        <div class="col_12">
-            <h2 class="center">Services</h2>
-            <p class="center">All work is carried out ourselves to a very high standard and to French Normes (NF).</p>
-            <p class="center">We are based near to Carhaix Plouguer in Department 29.<br />So are ideally situated to service departments 22, 29 &amp; 56.</p>
-        </div>
-        <div class="col_6">
-            <p>All equipment supplied and fitted</p>
-            <ul>
-                <li>Wood burners</li>
-                <li>Pellet Burners</li>
-                <li>Wood/Oil/Gas or Electric range cookers</li>
-                <li>Back boilers to heat domestic hot water &amp; or radiators</li>
-                <li>Solar &amp; hot water storage tanks</li>
-                <li>Domestic hot water tanks with electrics</li>
-                <li>Flues - replacement or new for wood &amp; oil. Chimneys lined &amp; sealed</li>
-                <li>Firebird oil boilers and air source heat pumps</li>
-            </ul>
-        </div>
-        <div class="col_6">
-            <p>Tous l'équipement fourniture et pose</p>
-            <ul>
-                <li>Poêles à bois avec ou sans bouilleur</li>
-                <li>Pôeles à granules</li>
-                <li>Cuisinières à bois avec ou sans bouilleur chauffe eau</li>
-                <li>Solaire eau chaude</li>
-                <li>Ballon d'eau chaude</li>
-                <li>Cheminées - tuyaux</li>
-            </ul>
-        </div>
-        <div class="clear"></div>
-        <div class="col_12">
-            <h3 class="center">Woodburners</h3>
-            <div class="gallery center">
-            {% for image in site.static_files %}
-                {% if image.path contains 'assets/photos/gallery-wood-burners' %}
-                <div class="smallsquare">
-                    <a href="{{ site.baseurl }}{{ image.path }}"><img title="{{ image.basename }}" src="{{ site.baseurl }}{{ image.path }}" class="constrain-img" alt="{{ image.basename }}" /></a>
+        {% assign test = page.test %}
+        {% assign sections=site.sections | where:"lang", page.language %}
+        {% for s in sections %}
+            <section id="{{ s.ref }}" class="{{ s.section-class }} {{ s.background }} wide">
+                <div class="col_12">
+                    <h2 class="center">{{ s.title }}</h2>
                 </div>
-                {% endif %}
-            {% endfor %}
-            </div>
-        </div>
-        <div class="col_6">
-            <h3>Central heating</h3>
-            <p>Central heating installations of any kind are possible - you can have whatever you want!</p>
-            <p>Installations vary so much between houses and systems. So it's best to have a chat with Sean regarding your individual requirements and the most economic and efficient way they might be catered for.</p>
-            <p>We will then provide a fully detailed quote (devis), with all parts and labour listed separately.</p>
-        </div>
-        <div class="col_6">
-            <h3>Boiler service</h3>
-            <p>A thorough boiler service which involves:
-            <ul>
-                <li>Complete investigation of the boiler &amp; burner</li>
-                <li>Replacing the fuel nozzle</li>
-                <li>Cleaning all fuel filters</li>
-                <li>Vacuuming the boiler casing &amp; flue exit</li>
-                <li>An emissions test with print out and Attestation</li>
-            </ul>
-            <p><strong>Price: 170&euro; + vat</strong></p>
-        </div>
-        <div class="clear"></div>
-        <div class="col_6">
-            <h3 class="center">Ground source heat pumps</h3>
-            <div class="gallery center">
-            {% for image in site.static_files %}
-                {% if image.path contains 'assets/photos/gallery-ground-source' %}
-                <div class="smallsquare">
-                    <a href="{{ site.baseurl }}{{ image.path }}"><img title="{{ image.basename }}" src="{{ site.baseurl }}{{ image.path }}" class="constrain-img" alt="{{ image.basename }}" /></a>
-                </div>
-                {% endif %}
-            {% endfor %}
-            </div>
-        </div>
-        <div class="col_6">
-            <h3 class="center">Chimneys</h3>
-            <div class="gallery center">
-            {% for image in site.static_files %}
-                {% if image.path contains 'assets/photos/gallery-chimneys' %}
-                    <div class="smallsquare">
+                
+                {% if s.section-image %}
+                    {% if s.img-side == 'right' %}
+                        <div class="col_8">
+                            {% include content.html %}
+                        </div>
+                        <div class="col_4">
+                            <div class="square">
+                                <img class="full-width squareImg" src="{{ s.section-image | relative_url }}" alt="{{ img-alt }}" />
+                            </div>
+                        </div>
+                    {% else if s.img-side == 'left %}
+                        <div class="col_4">
+                            <div class="square">
+                                <img class="full-width squareImg" src="{{ s.section-image | relative_url }}" alt="{{ img-alt }}" />
+                            </div>
+                        </div>
+                        <div class="col_8">
+                            {% include content.html %}
+                        </div>
+                    {% endif %}
+                    {% else %}
+                        <div class="12">
+                            {% include content.html %}
+                        </div>
                     
-                        <a href="{{ site.baseurl }}{{ image.path }}"><img title="{{ image.basename }}" src="{{ site.baseurl }}{{ image.path }}" class="constrain-img" alt="{{ image.basename }}" /></a>
-                    
-                </div>
                 {% endif %}
-            {% endfor %}
-            </div>
-        </div>
-        <div class="clear"></div>
-        <div class="col_6">
-            <h3 class="center">Fireplaces</h3>
-            <div class="gallery center">
-            {% for image in site.static_files %}
-                {% if image.path contains 'assets/photos/gallery-fireplaces' %}
-                    <div class="smallsquare">
-                    <a href="{{ site.baseurl }}{{ image.path }}"><img title="{{ image.basename }}" src="{{ site.baseurl }}{{ image.path }}" class="constrain-img" alt="{{ image.basename }}" /></a>
-                </div>
-                {% endif %}
-            {% endfor %}
-            </div>
-        </div>
-        <div class="col_6">
-            <h3 class="center">Oil boilers</h3>
-            <div class="gallery center">
-            {% for image in site.static_files %}
-                {% if image.path contains 'assets/photos/gallery-oil-boilers' %}
-                <div class="smallsquare">
-                    <a href="{{ site.baseurl }}{{ image.path }}"><img title="{{ image.basename }}" src="{{ site.baseurl }}{{ image.path }}" class="constrain-img" alt="{{ image.basename }}" /></a>
-                </div>
-                {% endif %}
-            {% endfor %}
-            </div>
-        </div>
-        <div class="col_12">
-            <h3 class="center">Underfloor heating</h3>
-            <div class="gallery center">
-            {% for image in site.static_files %}
-                {% if image.path contains 'assets/photos/gallery-underfloor' %}
-                <div class="smallsquare">
-                    <a href="{{ site.baseurl }}{{ image.path }}"><img title="{{ image.basename }}" src="{{ site.baseurl }}{{ image.path }}" class="constrain-img" alt="{{ image.basename }}" /></a>
-                </div>
-                {% endif %}
-            {% endfor %}
-            </div>
-            <p class="center"><a class="button light" href="#contact">Get in touch to discuss your needs</a></p>
-        </div>
+                <div class="col_12 center">
 
-
-
-    </section>
+            <p><a class="button {{ s.contact-button-class }}" href="#contact">{{ site.t.[lang].get-in-touch.name }}</a></p>
+        </div>
+            </section>
+        {% endfor %}
     
-    <section id="testimonials" class="background1 wide">
-        <div class="col_12">
-            <h2 class="center">Testimonials</h2>
-            <ul class="slideshow">
-            <li>
-                <h4>Mr &amp; Mrs Snell, Bain</h4>
-                <p>We installed Mr Snell's own Rayburn with back boiler</p>
 
-                <blockquote>
-                    <p>Just to let you know that the new system is working, and exceeding expectation. The house is warm and the water is hot. The Yorkshire puds are the best we've had for a very long time. So a big thank you. With a bit of experimentation we're getting a grasp on how to tweak the system. All the best and thanks again - really improved our life here!</p>
-                </blockquote>
-            </li>
-            <li>
-                <h4>Mrs Anne Thompson, Rostrenen</h4>
-                <p>A fully automatic system with woodburner &amp; oil boiler</p>
-
-                <blockquote>
-                    <p>Thank you for everything, never had so many windows and doors open in October it was so hot!</p>
-                </blockquote>
-            </li>
-            <li>
-                <h4>Mr &amp; Mrs Alan &amp; Chloe Boyce, St Hernin</h4>
-                <p>We installed a Villager BH woodburner</p>
-                <blockquote>
-                    <p>Massive thanks to both of you for organising our woodburner installation and for doing such a great job last week.</p>
-                    <p>We lit it for the first time on Saturday and it was lovely. It looks magical and we were warm as toast.</p>
-                    <p>It really makes our cottage seem like a proper home now and I'm sure we'll be getting tons of use from it in the future.</p>
-                    <p>It's been a pleasure working with both of you in getting it put in and we wanted to say how grateful both of us are.</p>
-
-                </blockquote>
-            </li>
-            <li>
-                <h4>Mrs Sue Gilbert, Huelgoat</h4>
-                <p>We installed a Cashin V8 woodburner &amp; altered the central heating system</p>
-                <blockquote>
-                    <p>Hi Karen and Sean,</p>
-                    <p>Please find attached the photo of the Wood Burner as promised.</p>
-                    <p>It is marvellous, we aren't dreading the Winter this year!</p>
-                    <p>Central heating also great now, not that we need it much anymore as the Wood Burner is so efficient!</p>
-                    <p>We are absolutely delighted with the Wood Burner, it's so easy to use, hardly uses any fuel and we are SO warm. All in all it is fantastic.</p>
-                    <p>Thank you so much for the very efficient way you have dealt with all this for me, it's been a pleasure doing business with you, and Sean is a Genius!</p>
-                </blockquote>
-            </li>
-            <li>
-                <h4>Mr &amp; Mrs Ian &amp; Gail Trew, Rostrenen</h4>
-                <blockquote>
-                    <p>We would just like to share our joy with you; we have today received a cheque from the tax office for 1507€ our Credit D'Impot for the woodburner etc.</p>
-                    <p>Many thanks for all your help in providing all the relevant paperwork to enable us to make our tax credit claim. I have to say I didn't think it would be that easy!</p>
-                </blockquote>
-            </li>
-            <li>
-                <h4>Mr & Mrs Dave Middleton, Duault</h4>
-                <p>We installed a Villager Puffin in a wooden built house, necessitating a complete new installation of an insulated flue.</p>
-                <blockquote>
-                    <p>Thanks again to Sean for the fire job. Dave was very pleased when he came home with it. I will certainly recommend Sean if anyone asks me, also we will be contacting Sean for a digging job later near summer which I discussed with him while he was here. Also could you send us any info on wind turbines as Dave is interested in having one. Many thanks again.</p>
-                </blockquote>
-            </li>
-            <li>
-                <h4>Andrew - Plevin</h4>
-                <blockquote>
-                    <p>You and Sean have made this so easy and we couldn't be any more pleased with the end result, so a huge thank you to you both.</p>
-                </blockquote>
-            </li>
-            <li>
-                <h4>Denise - Pleyben</h4>
-                <blockquote>
-                    <p>We are so pleased that we found you as Sean is great, not only does he explain things simply for us but his work is excellent, so thank you.</p>
-                </blockquote>
-            </li>
-            <li>
-                <h4>Vanessa - Moncontour</h4>
-                <blockquote>
-                    <p>Hi Karen, Hope all is well with you. Everything is going so well with our new fire - we are way beyond toasty and enjoying it hugely!</p>
-                </blockquote>
-            </li>
-            <li>
-                <h4>Jan Davies, Locquemeau</h4>
-                <blockquote>
-                    <p>From specifying the Jolly Mec model of pellet burner, placing the order and handling the delivery, we had every confidence that we were in safe and professional hands.</p>
-                    <p>For us there was no admin and no worries, every aspect was taken care of and all commitments met without hesitation. Sean's installation was completed to the highest standards with an impressive attention to detail and cleanliness. We are absolutely delighted with the Jolly Mec pellet burner and the results of a faultless installation.</p>
-                </blockquote>
-        </ul>
-        </div>
-    </section>
     <section id="contact" class="background2 wide">
     <div class="col_12">
         <h2 class="center">Contact Sean &amp; Karen</h2>

@@ -29,6 +29,15 @@ theme:
 plugins:
   - jekyll-feed
 
+
+collections:
+    sections:
+        output: false
+    testimonials:
+        output: false
+
+collections_dir: _collections
+
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
@@ -40,3 +49,56 @@ exclude:
    - vendor/cache/
    - vendor/gems/
    - vendor/ruby/
+
+
+t:
+  en:
+    home:
+      name: "Home"
+      url: "/"
+    about:
+      name: "About"
+      url: "#about"
+    products:
+      name: "Products"
+      url: "#products"
+    services:
+      name: "Services"
+      url: "#services"
+    testimonials:
+      name: "Testimonials"
+      url: "#testimonials"
+    contact:
+      name: "Contact"
+      url: "#contact"
+    description:
+      name: "Heating and hot water specialist in Brittany, France"
+    find-out:
+      name: "Find out more"
+    get-in-touch:
+      name: "Get in touch to discuss your needs"
+  fr:
+    home:
+      name: "Accueil"
+      url: "/accueil/"
+    about:
+      name: "À propos"
+      url: "#a-propos"
+    products:
+      name: "Produits"
+      url: "#products"
+    services:
+      name: "Services"
+      url: "#services"
+    testimonials:
+      name: "Témoinages"
+      url: "#temoinages"
+    contact:
+      name: "Contact"
+      url: "#contact"
+    description:
+      name: "Spécialiste du chauffage et de l'eau chaude en Bretagne, France"
+    find-out:
+      name: "En savoir plus"
+    get-in-touch:
+      name: "Contactez-nous pour discuter de vos besoins"

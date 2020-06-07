@@ -1,0 +1,12 @@
+{{ s.content }}
+{% if s.testimonials == true %}
+    
+    <ul class="slideshow">
+    {% for testimonial in site.testimonials %}
+        <li>
+            <h4>{{ testimonial.name }}</h4>
+            <p>{{ testimonial.description }}</p>
+            <blockquote>{{ testimonial.text }}</blockquote>
+        </li>
+    {% endfor %}
+{% endif %}
