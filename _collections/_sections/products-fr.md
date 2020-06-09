@@ -3,7 +3,7 @@ title: Produits
 lang: fr
 ref: products
 section-class: 'full-height'
-background: background3
+background: background2
 section-image: assets/photos/sean/P1010637.jpeg
 img-alt: 'Sean cutting stonework'
 img-side: left
