@@ -275,6 +275,10 @@ a.button.light:hover {
 	border:none;
 }
 
+table.unstriped td {
+	border:none;
+}
+
 /*----*/
 
 #wrap{
@@ -399,12 +403,24 @@ background:#fff;
 
 }
 
+img.logo {
+	width: 100px;
+}
+
 .lang-select {
 	position: fixed;
 	top: 10px;
 	left: 82%;
 	color: #eee;
 	z-index: 9999;
+}
+
+h4.margin40 {
+	 margin-bottom:40px;
+}
+
+img.flag {
+	height: 100px;
 }
 
 /* NAV BAR*/
