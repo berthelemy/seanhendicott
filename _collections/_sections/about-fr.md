@@ -3,7 +3,7 @@ title: À propos
 lang: fr
 ref: about
 section-class: 'full-height'
-background: background1
+background: background2
 section-image: assets/photos/sean/P1010637.jpeg
 img-alt: 'Sean cutting stonework'
 img-side: right

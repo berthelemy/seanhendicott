@@ -3,7 +3,7 @@ title: Services
 lang: en
 ref: services
 section-class: ''
-background: background3
+background: background1
 section-image: assets/photos/sean/P1010637.jpeg
 img-alt: 'Sean cutting stonework'
 img-side: right

@@ -3,7 +3,7 @@ title: Testimonials
 lang: en
 ref: testimonials
 section-class: 'full-height'
-background: background1
+background: background2
 section-image: 
 img-alt: 'Sean cutting stonework'
 img-side: right

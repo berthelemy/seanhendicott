@@ -1,3 +1,6 @@
+---
+# Main overrides file
+---
 /*
 	99Lime.com HTML KickStart by Joshua Gatcke
 	style.css
@@ -8,10 +11,12 @@
 	IMPORTS
 -----------------------------------*/
 @import url(https://fonts.googleapis.com/css?family=Arimo:400,700);
+@import "globals";
 
 /*---------------------------------
 	OVERRIDES
 -----------------------------------*/
+
 
 html {
 	scroll-behavior: smooth;
@@ -19,7 +24,7 @@ html {
 }
 
 a {
-	color: #eee;
+	color: $textcolor;
 }
 
 a[href^="http"]:after {
@@ -52,7 +57,7 @@ font-family: "Arimo", arial, verdana, sans-serif;
 }
 
 strong {
-	color: #fff;
+	color: $textcolor;
 }
 
 button,
@@ -133,7 +138,7 @@ img#FBlogo {
 body{
 margin:0;
 padding:0 0 0 0;
-color:#eee;
+color:$textcolor;
 overflow-x: hidden;
 font:normal 0.9em/150% 'Arimo', arial, verdana, sans-serif;
 text-shadow: 0 0 1px transparent; /* google font pixelation fix */
@@ -234,7 +239,7 @@ input[type="button"]{*padding:7px 15px;}/*IE 7 ONLY*/
 
 
 a.button.fire:hover {
-	background:rgba(253,4,0,1,1);
+	background:rgba(253,4,0,1);
 	background: -moz-linear-gradient(top, rgba(23,4,0,1) 0%, rgba(23,4,0,1) 100%); /* FF3.6+ */
 	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(23,4,0,1)), color-stop(100%,rgba(23,4,0,1))); /* Chrome,Safari4+ */
 	background: -webkit-linear-gradient(top, rgba(23,4,0,1) 0%,rgba(23,4,0,1) 100%); /* Chrome10+,Safari5.1+ */
@@ -319,43 +324,47 @@ background:#fff;
 
 .menu {
 	background: none;
-	background-color: #170400;
+	background-color: $menu-background-color;
 	border: none;
+}
+
+.menu li {
+	background-color: $menu-button-background-color;
 }
 
 .menu li a {
 	text-shadow: none;
-	color: #fff;
+	color: $menu-button-text-color;
 }
 
 .menu li.current>a, .menu li.current>a:hover, .menu li.current:hover>a {
 	background: none;
-	background-color: #9D703E;
-	color: #000;
+	background-color: $menu-current-background-color;
+	color: $menu-current-text-color;
 }
 
 .menu li a:hover, .menu li:hover>a {
-	background: #7B501F;
+	background: $menu-hover-background-color;
 }
 
 #banner {
 	margin-top: 2px;
 	padding-top: 10em;
-	background:#efefef url(images/orangelogo.jpg);
+	background-color: $background1;
 	background-size: 100% 100%;
 }
 
 
 .background1 {
-	background-color: #170400;
+	background-color: $background1;
 }
 
 .background2 {
-	background-color: #2C0012;
+	background-color: $background2;
 }
 
 .background3 {
-	background-color: #9D503E;
+	background-color: $background3;
 }
 
 .smallsquare {
@@ -411,7 +420,7 @@ img.logo {
 	position: fixed;
 	top: 10px;
 	left: 82%;
-	color: #eee;
+	color: $textcolor;
 	z-index: 9999;
 }
 
