@@ -24,7 +24,7 @@ html {
 }
 
 a {
-	color: $textcolor;
+	color: $dark-grey;
 }
 
 a[href^="http"]:after {
@@ -57,7 +57,7 @@ font-family: "Arimo", arial, verdana, sans-serif;
 }
 
 strong {
-	color: $textcolor;
+	color: $dark-grey;
 }
 
 button,
@@ -78,7 +78,7 @@ font-family: "Arimo", arial, verdana, sans-serif;
 
 .slideshow li {
 	padding: 1.5em 50px;
-	color: #111;
+	color: $dark-grey;
 }
 
 .slideshow h4, .slideshow p {
@@ -91,8 +91,8 @@ blockquote{
 	line-height: 2.2em;
 	font-size: 1em;
 	width: 70%;
-	background: #f9f9f9;
-	border-left: 10px solid #ccc;
+	background: $white;
+	border-left: 10px solid $light-grey;
 	/*margin: 1.5em 10px;*/
 	padding: 0.5em 10px;
 	quotes: "\201C""\201D""\2018""\2019";
@@ -103,7 +103,7 @@ blockquote p {
 }
 
 blockquote::before {
-	color: #ccc;
+	color: $light-grey;
 	content: open-quote;
 	font-size: 4em;
 	line-height: 0.1em;
@@ -112,7 +112,7 @@ blockquote::before {
 }
 
 blockquote::after {
-	color: #ccc;
+	color: $light-grey;
 	content: close-quote;
 	font-size: 4em;
 	line-height: 0.1em;
@@ -138,7 +138,7 @@ img#FBlogo {
 body{
 margin:0;
 padding:0 0 0 0;
-color:$textcolor;
+color:$dark-grey;
 overflow-x: hidden;
 font:normal 0.9em/150% 'Arimo', arial, verdana, sans-serif;
 text-shadow: 0 0 1px transparent; /* google font pixelation fix */
@@ -176,7 +176,7 @@ width:auto;
 overflow:visible;
 font-weight:normal;
 font-size:14px; /*Pixels for consistancy*/
-text-shadow:0 1px 0 #fff;
+text-shadow:0 1px 0 $white;
 
 text-decoration:none;
 vertical-align: middle;
@@ -186,7 +186,7 @@ box-sizing: border-box;
 display:inline-block;
 *display:inline;/*IE ONLY*/
 zoom:1;
-border:1px solid #ccc;
+border:1px solid $white;
 background: rgb(252,252,252); /* Old browsers */
 background: -moz-linear-gradient(top, rgba(252,252,252,1) 0%, rgba(224,224,224,1) 100%); /* FF3.6+ */
 background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(252,252,252,1)), color-stop(100%,rgba(224,224,224,1))); /* Chrome,Safari4+ */
@@ -306,7 +306,7 @@ text-shadow:0px 1px 1px #fff;
 position: relative;
 top:0;
 left:0;
-background: $background1;
+background: $color-primary-1;
 }
 
 	#link-top{
@@ -324,12 +324,12 @@ background: $background1;
 
 .menu {
 	background: none;
-	background-color: $menu-background-color;
+	background-color: $black;
 	border: none;
 }
 
 .menu li {
-	background-color: $menu-button-background-color;
+	background-color: $color-secondary-1-4;
 }
 
 .menu li a {
@@ -339,7 +339,7 @@ background: $background1;
 
 .menu li.current>a, .menu li.current>a:hover, .menu li.current:hover>a {
 	background: none;
-	background-color: $menu-current-background-color;
+	background-color: $color-secondary-1-1;
 	color: $menu-current-text-color;
 }
 
@@ -349,23 +349,80 @@ background: $background1;
 }
 
 #banner {
-	margin-top: 2px;
-	padding-top: 10em;
+
+//	margin-top: 2px;
+//	padding-top: 10em;
+//	background-color: $background-banner;
+//	background-image: url('images/stove-banner2.jpg');
+//	background-position: center;
+//	background-size: 100vw;
+//	background-fit: contain;
+//	background-repeat: no-repeat;
+//	filter: blur(8px);
+//	-webkit-filter: blur(8px);
+}
+
+.bg-image {
+  /* The image used */
+  background-image: url("images/stove-banner2.jpg");
 	background-color: $background-banner;
-	background-size: 100% 100%;
+  /* Add the blur effect */
+  filter: blur(4px);
+  -webkit-filter: blur(4px);
+
+  /* Full height */
+  height: 100vh;
+  width: 100vw;
+  position: absolute;
+	left: 0;
+	top: 0;
+	padding: 0;
+	margin: 0;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-fit: contain;
+  background-size: 100vw;
+}
+
+
+
+.bg-text {
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+  color: $white;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  padding: 20px;
+  text-align: center;
+}
+
+.bg-text a {
+	color: $white;
+}
+
+
+.padding {
+	padding: 9em 5em;
 }
 
 
 .background1 {
-	background-color: $background1;
+	background-color: $color-primary-1;
 }
 
 .background2 {
-	background-color: $background2;
+	background-color: $color-primary-2;
 }
 
 .background3 {
-	background-color: $background3;
+	background-color: $color-primary-0;
 }
 
 .smallsquare {
@@ -421,8 +478,11 @@ img.logo {
 	position: fixed;
 	top: 10px;
 	left: 82%;
-	color: $textcolor;
 	z-index: 9999;
+}
+
+.lang-select, .lang-select a {
+	color: $light-grey;
 }
 
 h4.margin40 {

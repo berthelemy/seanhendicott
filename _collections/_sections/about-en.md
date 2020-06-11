@@ -10,6 +10,8 @@ img-side: right
 contact-button-class: 'light'
 testimonials: false
 ---
+<img class="logo align-left" src="{{ 'assets/images/sean-logo.png' | relative_url }}" />
+
 Sean is able to offer sound advice and system design on most aspects of heating systems for the home.
 
 He began his career 35 years ago in Cornwall with a 5 year apprenticeship in plant &amp; machinery, hydraulic engineering and electrical.
