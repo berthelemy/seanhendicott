@@ -1,0 +1,15 @@
+
+{% assign count = 0 %}
+{% for supplier in include.suppliers %}
+
+<div class="col_2">
+    <a href="{{ supplier.url }}" target="_blank"><img class="align-left logos" width="150px" src="{{ supplier.logo | relative_url }}" alt="{{ supplier.name }} logo" /></a>
+</div>
+<div class="col_4">
+    <p>{{ supplier.desc1 }}</p>
+    <p>{{ supplier.desc2 }}</p>
+</div>
+{% if count == 0 %}
+{% assign count = 1 %}
+{% else %}<div class="clear"></div>{% assign count = 0 %}{% endif %}
+{% endfor %}
