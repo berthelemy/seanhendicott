@@ -16,6 +16,6 @@ Sean is able to offer sound, practical advice and system design on most aspects 
 
 Since 2003 Sean has been living & working in France.
 
-He is a qualified installer; fully registered & insured and has completed several "formations" (courses) here in France ensuring he stays up to date with French Norms &amp; Regulations.
+He is a qualified installer - fully registered & insured and has completed several "formations" (courses) here in France ensuring he stays up to date with French Norms &amp; Regulations.
 
 He is happy to discuss your requirements and design the very best ‘bespoke’ system to suit your individual requirements. He likes to know you’re warm and comfortable!
