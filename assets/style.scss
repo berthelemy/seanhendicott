@@ -148,7 +148,7 @@ section, footer {
 
 .service {
 	background-color: $color-primary-4;
-	color: $light-grey;
+	color: $white;
 	padding: 0.8em;
 	height: 100px;
 }
@@ -468,6 +468,7 @@ img.logo {
 	top: 10px;
 	left: 82%;
 	z-index: 9999;
+	font-weight: bold;
 }
 
 .lang-select, .lang-select a {

@@ -10,7 +10,7 @@ img-side: right
 contact-button-class: 'light'
 testimonials: false
 ---
-<img class="logo align-left" src="{{ 'assets/images/sean-logo.png' | relative_url }}" />
+<img class="logo align-left" alt="logo" src="{{ 'assets/images/sean-logo.png' | relative_url }}" />
 
 Sean is able to offer sound, practical advice and system design on most aspects of heating systems for the home. His speciality lies in wood fired heating systems (including pellet boilers).
 
