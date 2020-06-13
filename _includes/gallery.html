@@ -1,9 +1,21 @@
 <div class="gallery center">
+    {% capture galleryname %}{{ include.gallery }}{% endcapture %}
+    {% assign count = 0 %}
+    {% assign max-count = 3 %}
             {% for image in site.static_files %}
-                {% if image.path contains 'assets/photos/gallery-wood-burners' %}
-                <div class="smallsquare">
-                    <a href="{{ site.baseurl }}{{ image.path }}"><img title="{{ image.basename }}" src="{{ site.baseurl }}{{ image.path }}" class="constrain-img" alt="{{ image.basename }}" /></a>
+                {% if image.path contains galleryname %}
+                
+                <div class="col_3">
+                        <a href="{{ site.baseurl }}{{ image.path }}"><img title="{{ image.basename }}" src="{{ site.baseurl }}{{ image.path }}" class="constrain-img" alt="{{ image.basename }}" /></a>
                 </div>
+                    {% if count == max-count %}
+                        {% assign count = 0 %}
+                        <div class="clear"></div>
+                    {% else %}
+                        {% assign count = count | plus:1 %}
+                    {% endif %}
                 {% endif %}
+                
             {% endfor %}
+            <div class="clear"></div>
             </div>

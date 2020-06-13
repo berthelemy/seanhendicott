@@ -97,6 +97,8 @@ t:
       name: "Karen's mobile"
     facebook:
       name: "Find us on Facebook"
+    base:
+      name: "We are based near to Carhaix Plouguer in Department 29. So are ideally situated to service departments 22, 29 &amp; 56."
   fr:
     home:
       name: "Accueil"
@@ -139,4 +141,5 @@ t:
       name: "Mobile de Karen"
     facebook:
       name: "Retrouvez-nous sur Facebook"
-
+    base:
+      name: "Nous sommes basés près de Carhaix Plouguer dans le département 29. Nous sommes donc idéalement situés pour desservir les départements 22, 29 & amp; 56."

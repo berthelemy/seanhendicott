@@ -8,6 +8,10 @@ layout: default
                 <div class="col_12">
                     <h2 class="center">{{ s.title }}</h2>
                 </div>
+
+                {% if s.title == "Services" %}
+                    {% include gallery.html gallery="gallery-sample" %}
+                {% endif %}
                 
                 {% if s.section-image %}
                     {% if s.img-side == 'right' %}
@@ -30,11 +34,15 @@ layout: default
                         </div>
                     {% endif %}
                     {% else %}
-                        <div class="12">
+                        <div class="col_12">
                             {% include content.html %}
                         </div>
                     
                 {% endif %}
+                {% if s.title == "Services" %}
+                    {% include services.html services=s.services %}
+                {% endif %}
+
                 <div class="col_12 center">
 
             <p><a class="button top-margin" href="#contact">{{ site.t[pagelang].get-in-touch.name }}</a></p>
@@ -74,6 +82,7 @@ layout: default
                 <td><a href="https://www.facebook.com/seanhendicott/" target="_blank">{{ site.t[pagelang].facebook.name }}</a></td>
             </tr>
         </table>
+        <p>{{ site.t[pagelang].base.name }}</p>
     
     </div>
     <div class="col_1"></div>
