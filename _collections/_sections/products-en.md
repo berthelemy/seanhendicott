@@ -7,7 +7,6 @@ background: background2
 section-image: 
 img-alt: 'Sean cutting stonework'
 img-side: left
-contact-button-class: 'light'
 testimonials: false
 
 suppliers:

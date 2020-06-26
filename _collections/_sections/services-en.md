@@ -7,7 +7,6 @@ background: background3
 section-image: 
 img-alt: 
 img-side: right
-contact-button-class: 'light'
 testimonials: false
 services:
   - Wood burners

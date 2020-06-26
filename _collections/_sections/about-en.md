@@ -7,7 +7,6 @@ background: background1
 section-image: assets/photos/sean/P1010637.jpeg
 img-alt: 'Sean cutting stonework'
 img-side: right
-contact-button-class: 'light'
 testimonials: false
 ---
 <img class="logo align-left" alt="logo" src="{{ 'assets/images/sean-logo.png' | relative_url }}" />

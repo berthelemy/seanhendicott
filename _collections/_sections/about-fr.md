@@ -7,17 +7,14 @@ background: background1
 section-image: assets/photos/sean/P1010637.jpeg
 img-alt: 'Sean cutting stonework'
 img-side: right
-contact-button-class: 'light'
 testimonials: false
 ---
-Sean is able to offer sound advice and system design on most aspects of heating systems for the home.
+<img class="logo align-left" alt="logo" src="{{ 'assets/images/sean-logo.png' | relative_url }}" />
 
-He began his career 35 years ago in Cornwall with a 5 year apprenticeship in plant &amp; machinery, hydraulic engineering and electrical.
+Sean is able to offer sound, practical advice and system design on most aspects of heating systems for the home. His speciality lies in wood fired heating systems (including pellet boilers).
 
-From there he worked and became self employed in the UK as a plant fitter and hydraulic engineer for 17 years.
+Since 2003 Sean has been living & working in France.
 
-Sensing a change was due, he returned to college to study Oil Fired Boilers and unvented hot water systems. After gaining his tickets, he became OFTEC registered and set out as an oil central heating &amp; system design engineer in the UK.
+He is a qualified installer - fully registered & insured and has completed several "formations" (courses) here in France ensuring he stays up to date with French Norms &amp; Regulations.
 
-After an exciting move to France in 2003, the French 'chambre des metiers' recognised his UK qualifications. So he began to specialise in all aspects of French heating - with an especially keen interest in renewable energy and 'off grid'.
-
-He has since completed 'stages' here in France.
+He is happy to discuss your requirements and design the very best ‘bespoke’ system to suit your individual requirements. He likes to know you’re warm and comfortable!

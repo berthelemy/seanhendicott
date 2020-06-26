@@ -4,11 +4,37 @@ lang: fr
 ref: products
 section-class: 'full-height'
 background: background2
-section-image: assets/photos/sean/P1010637.jpeg
-img-alt: 'Sean cutting stonework'
+section-image: 
+img-alt:
 img-side: left
-contact-button-class: 'light'
 testimonials: false
+
+suppliers:
+  - name: Hunter Stoves
+    url: https://www.hunterstoves.co.uk/
+    logo: assets/images/logos/hunter-stoves.png
+    desc1: "Log burners and multi-fuel stoves"
+    desc2: "We are Hunter's approved supplier/installer for Brittany"
+  - name: Esse
+    url: https://www.esse.com/
+    logo: assets/images/logos/esse-nav-logo.jpg
+    desc1: "Wood and electric range cookers and stoves"
+    desc2: "We are Esse’s approved supplier/installers for Brittany"
+  - name: Joule UK
+    url: https://jouleuk.co.uk/
+    logo: assets/images/logos/joule_logo_white.svg
+    desc1: "Stainless steel hot water tanks"
+    desc2: "We are Joule's approved supplier/installers for Brittany"
+  - name: Klover
+    url: https://www.klover.it/en
+    logo: assets/images/logos/klover.png
+    desc1: "Pellet boilers, cookers & room heaters"
+    desc2: "We are Klover's approved supplier/installers for Brittany"
+  - name: Jolly Mec
+    url: https://jolly-mec.it/en/products
+    logo: assets/images/logos/jolly-mec.png
+    desc1: "Specialists in pellet burners"
+    desc2: 
 ---
 We can supply woodburners and range cookers either from our own stock, or delivered to France.
 
@@ -16,12 +42,4 @@ Collect for a DIY installation or ask about our [installation services](#service
 
 Showroom open by appointment.
 
-We recommend the following manufacturers:
-
-- [Hunter Stoves](https://www.hunterstoves.co.uk/) - wood burning fires with or without back boilers
-- [Esse](https://www.esse.com/) - wood burning stoves
-- [Burley](https://burley.co.uk/) - wood burning stoves
-- [Firebird](https://firebird.uk.com/) - oil fired boilers
-- [Jolly Mec](https://jolly-mec.it/en/products) - pellet burners
-- [Fabrilor](https://www.fabriloriberica.es/fabrilor-iberica.php) - pellet burners
-- [Klover](https://www.klover.it/en) - pellet burners
+{% include suppliers.html suppliers=page.suppliers %}
