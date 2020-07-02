@@ -11,6 +11,8 @@ testimonials: false
 ---
 <img class="logo align-left" alt="logo" src="{{ 'assets/images/sean-logo.png' | relative_url }}" />
 
+Sean peux ... 
+
 Sean is able to offer sound, practical advice and system design on most aspects of heating systems for the home. His speciality lies in wood fired heating systems (including pellet boilers).
 
 Since 2003 Sean has been living & working in France.
