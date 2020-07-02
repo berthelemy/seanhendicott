@@ -11,12 +11,11 @@ testimonials: false
 ---
 <img class="logo align-left" alt="logo" src="{{ 'assets/images/sean-logo.png' | relative_url }}" />
 
-Sean peux ... 
 
-Sean is able to offer sound, practical advice and system design on most aspects of heating systems for the home. His speciality lies in wood fired heating systems (including pellet boilers).
+Sean est en mesure d'offrir des conseils pratiques et la conception du système sur les aspects des systèmes de chauffage pour votre maison. Sa spécialité réside autour des systèmes de chauffage au bois (y compris les chaudières à granulés).
 
-Since 2003 Sean has been living & working in France.
+Sean vit et travail en France depuis 2003.
 
-He is a qualified installer - fully registered & insured and has completed several "formations" (courses) here in France ensuring he stays up to date with French Norms &amp; Regulations.
+Il est installateur qualifié, enregistré et assuré en France en étant toujours mis à jour avec les régulations et les normes français grâce à des formations complétés, ici en France.
 
-He is happy to discuss your requirements and design the very best ‘bespoke’ system to suit your individual requirements. He likes to know you’re warm and comfortable!
+Il est heureux de discuter de votre projet et de répondre à vos questions pour vous donner une système "sur mesure" qui vous convient le mieux, et à votre goût. Il aime savoir que vous avez assez chaud et que vous êtes comfortable.
