@@ -2,5 +2,5 @@
 lang: fr
 name: 'Denise - Pleyben'
 description: ''
-text: We are so pleased that we found you as Sean is great, not only does he explain things simply for us but his work is excellent, so thank you.
+text: Nous sommes ravis de vous avoir trouvé car Sean est vraiment super, non seulement il explique les choses simplement pour nous, mais son travail est excellent, merci.
 ---
