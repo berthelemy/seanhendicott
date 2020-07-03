@@ -13,7 +13,7 @@ testimonials: false
 
 
 
-Sean est en mesure d'offrir des conseils pratiques sur la conception de systèmes et sur les aspects des systèmes de chauffage pour votre maison. Sa spécialité réside autour des systèmes de chauffage au bois (y compris les chaudières à granulés et ballons eau sanitaire).
+Sean est en mesure d'offrir des conseils pratiques sur la conception de système et sur les aspects des systèmes de chauffage pour votre maison. Sa spécialité réside autour des systèmes de chauffage au bois (y compris les chaudières à granulés et ballons eau sanitaire).
 
 
 Sean vit et travail en France depuis 2003.
