@@ -1,7 +1,7 @@
 ---
 title: Produits
 lang: fr
-ref: Produits
+ref: products
 section-class: 'full-height'
 background: background2
 section-image: 

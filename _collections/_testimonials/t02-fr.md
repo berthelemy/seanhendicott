@@ -1,5 +1,6 @@
 ---
 lang: fr
+order: 4
 name: 'Mrs Anne Thompson, Rostrenen'
 description: 'A fully automatic system with woodburner &amp; oil boiler'
 text: Thank you for everything, never had so many windows and doors open in October it was so hot!

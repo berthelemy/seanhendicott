@@ -124,7 +124,7 @@ t:
     find-out:
       name: "En savoir plus"
     get-in-touch:
-      name: "Contactez-nous pour discuter de vos besoins"
+      name: "Envoyez-nous un message"
     email:
       name: "Votre mail"
     phone:
@@ -142,4 +142,4 @@ t:
     facebook:
       name: "Retrouvez-nous sur Facebook"
     base:
-      name: "Nous sommes basés près de Carhaix Plouguer dans le département 29. Nous sommes donc idéalement situés pour desservir les départements 22, 29 & amp; 56."
+      name: "Nous sommes basés près de Carhaix Plouguer dans le département 29. Nous sommes donc idéalement situés pour desservir les départements 22, 29 &amp; 56."

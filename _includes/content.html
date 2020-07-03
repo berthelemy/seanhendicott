@@ -3,7 +3,8 @@
     
     <ul class="slideshow">
     {% assign testimonials = site.testimonials | where: "lang", page.language %}
-    {% for testimonial in testimonials %}
+    {% assign testimonials-sorted = testimonials | sort: 'order' %}
+    {% for testimonial in testimonials-sorted %}
         <li>
             <h4>{{ testimonial.name }}</h4>
             <p>{{ testimonial.description }}</p>
