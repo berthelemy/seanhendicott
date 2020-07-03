@@ -28,7 +28,7 @@ suppliers:
   - name: Klover
     url: https://www.klover.it/en
     logo: assets/images/logos/klover.png
-    desc1: "Chaudière à granulés, cuisinières"
+    desc1: "Cuisinières bouilleurs au bois et au granulé de bois"
     desc2: "Nous sommes un fournisseur et installateur approuvé et recommandé par Klover en Bretagne"
   - name: Jolly Mec
     url: https://jolly-mec.it/en/products
