@@ -9,24 +9,24 @@ img-alt:
 img-side: right
 testimonials: false
 services:
-  - Wood burners
-  - Pellet Burners
-  - Wood burning stoves
-  - Gas or Electric stoves
-  - Back boilers to heat domestic hot water &amp; or radiators
-  - Solar &amp; hot water storage tanks
-  - Chimneys lined and sealed
-  - Underfloor heating
+  - Poêle à bois
+  - Poêles et chaudières à granulés
+  - Cuisinières à bois
+  - Cuisinières électrique
+  - Bouilleur intégrale pour chauffer eau chaude sanitaire et/ou radiateurs
+  - Ballons solaires et/ou stockage
+  - Cheminées d'étanchéité avec tuyuax flexibles ou rigides isolés
+  - Plancher chauffant
 ---
 
   
-We can create heating installations of any kind, including central heating.
+Nous pouvons installées tout types de systèmes de chauffage au bois et granulés, y compris le chauffage central.
 
-Installations vary so much between houses and systems. So it's best to have a chat with Sean regarding your individual requirements and the most economic and efficient way they might be catered for.
+Les installations varient tellement entre les maison et les systèmes de chauffage. Il est donc préférable de discuter avec Sean de vos besoins individuels de manière la plus efficace et économique pour vous satisfaire.
 
-We will then provide a fully detailed quote (devis), with all parts and labour listed separately.
+Nous vous fournirons ensuite un devis complet, avec tous les pièces et la main d'oeuvre répertoriés séparément. 
 
-All work is carried out ourselves to a very high standard and to French Normes (NF).
+Tous les travaux sont effectués nous-mêmes à un niveau très élevé et aux normes français.
 
 
 
