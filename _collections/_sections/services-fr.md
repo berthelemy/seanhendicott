@@ -24,7 +24,7 @@ Nous pouvons installées tous types de systèmes de chauffage au bois et granul�
 
 Les installations varient tellement entre les maison et les systèmes de chauffage. Il est donc préférable de discuter avec Sean de vos besoins individuels de manière la plus efficace et économique pour vous satisfaire.
 
-Nous vous fournirons ensuite un devis complet, avec tous les pièces et la main d'oeuvre répertoriés séparément. 
+Nous vous fournirons ensuite un devis complet, avec toutes les pièces et la main d'oeuvre répertoriés séparément. 
 
 Tous les travaux sont effectués nous-mêmes à un niveau très élevé et aux normes français.
 
