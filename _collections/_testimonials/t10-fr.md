@@ -1,6 +1,6 @@
 ---
 lang: fr
-name: 'Jan Davies, Locquemeau'
+name: 'Jan, Locquemeau'
 description: ''
-text: From specifying the Jolly Mec model of pellet burner, placing the order and handling the delivery, we had every confidence that we were in safe and professional hands. For us there was no admin and no worries, every aspect was taken care of and all commitments met without hesitation. Sean's installation was completed to the highest standards with an impressive attention to detail and cleanliness. We are absolutely delighted with the Jolly Mec pellet burner and the results of a faultless installation.
+text: De la spécification du modèle de brûleur à granulés Jolly Mec, jusqu'à la prise de commande et la livraison, nous étions convaincus que nous étions entre de bonnes mains professionnelles. Pour nous, il n'y avait pas de problèmes d'administration ni de soucis, chaque aspect était pris en charge et tous les engagements respectés sans hésitation. L'installation de Sean a été achevée selon les normes les plus élevées avec une attention impressionante aux détails. Nous sommes absolument ravis avec le brûleur à granulés Jolly Mec. Les résultats d'une installation sans faille.
 ---
