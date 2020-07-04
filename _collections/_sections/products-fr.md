@@ -23,7 +23,7 @@ suppliers:
   - name: Joule UK
     url: https://jouleuk.co.uk/
     logo: assets/images/logos/joule_logo_white.svg
-    desc1: "Ballon d'eau chaude sanitaire inox"
+    desc1: "Ballon d'eau chaude sanitaire inox avec une garantie de 10ans"
     desc2: "Nous sommes le seul fournisseur et installateur approuvé par Joule en Bretagne"
   - name: Klover
     url: https://www.klover.it/en
