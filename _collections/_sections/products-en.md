@@ -23,7 +23,7 @@ suppliers:
   - name: Joule UK
     url: https://jouleuk.co.uk/
     logo: assets/images/logos/joule_logo_white.svg
-    desc1: "Stainless steel hot water tanks"
+    desc1: "Stainless steel hot water tanks with 10 year guarantee"
     desc2: "We are Joule's approved supplier/installers for Brittany"
   - name: Klover
     url: https://www.klover.it/en

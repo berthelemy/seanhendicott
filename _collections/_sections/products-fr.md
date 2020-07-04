@@ -16,7 +16,7 @@ suppliers:
     desc1: "Poêles à bois"
     desc2: "Nous sommes le seul fournisseur et installateur approuvé par Hunter en Bretagne"
   - name: Esse
-    url: https://www.esse.com/
+    url: https://www.esse.com/france
     logo: assets/images/logos/esse-nav-logo.jpg
     desc1: "Cuisinières et poêles à bois avec possibilité eau chaude sanitaire, cuisinières électrique"
     desc2: "Nous sommes le seul fournisseur et installateur approuvé par Esse en Bretagne"
@@ -26,12 +26,12 @@ suppliers:
     desc1: "Ballon d'eau chaude sanitaire inox"
     desc2: "Nous sommes le seul fournisseur et installateur approuvé par Joule en Bretagne"
   - name: Klover
-    url: https://www.klover.it/en
+    url: https://www.klover.it/fr
     logo: assets/images/logos/klover.png
     desc1: "Cuisinières bouilleurs au bois et au granulé de bois"
     desc2: "Nous sommes un fournisseur et installateur approuvé et recommandé par Klover en Bretagne"
   - name: Jolly Mec
-    url: https://jolly-mec.it/en/products
+    url: https://jolly-mec.it/fr/poeles-et-thermopoeles
     logo: assets/images/logos/jolly-mec.png
     desc1: "Spécialiste en chaudières à granulés"
     desc2: 

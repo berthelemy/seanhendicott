@@ -11,8 +11,8 @@ testimonials: false
 services:
   - Wood burners
   - Pellet Burners
-  - Wood burning stoves
-  - Gas or Electric stoves
+  - Woodburning Range Cookers
+  - Electric Range Cookers 
   - Back boilers to heat domestic hot water &amp; or radiators
   - Solar &amp; hot water storage tanks
   - Chimneys lined and sealed
