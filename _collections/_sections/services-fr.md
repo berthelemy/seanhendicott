@@ -22,7 +22,7 @@ services:
   
 Nous pouvons installées tous types de systèmes de chauffage au bois et granulés, y compris le chauffage central.
 
-Les installations varient tellement entre les maison et les systèmes de chauffage. Il est donc préférable de discuter avec Sean de vos besoins individuels de manière la plus efficace et économique pour vous satisfaire.
+Les installations varient tellement entre les maisons et les systèmes de chauffage. Il est donc préférable de discuter avec Sean de vos besoins individuels de manière la plus efficace et économique pour vous satisfaire.
 
 Nous vous fournirons ensuite un devis complet, avec toutes les pièces et la main d'oeuvre répertoriés séparément. 
 
