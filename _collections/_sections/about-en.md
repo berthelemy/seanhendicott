@@ -4,7 +4,7 @@ lang: en
 ref: about
 section-class: 'full-height'
 background: background1
-section-image: assets/photos/sean/P1010637.jpeg
+section-image: assets/photos/sean/IMG_1573-square.png
 img-alt: 'Sean cutting stonework'
 img-side: right
 testimonials: false
