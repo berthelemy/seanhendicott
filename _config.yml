@@ -18,14 +18,14 @@ email: mark@berthelemy.net
 description: "Heating and hot water specialist in Brittany, France"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: 
-github_username:  
+twitter_username:
+github_username:
 
-baseurl: "/seanhendicott"
+baseurl: ""
 
 # Build settings
 markdown: kramdown
-theme: 
+theme:
 plugins:
   - jekyll-feed
 
