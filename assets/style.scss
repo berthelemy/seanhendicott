@@ -41,12 +41,12 @@ a[href^="http"]:after {
 }
 */
 
-section::before { 
-  display: block; 
-  content: " "; 
-  margin-top: -45px; 
-  height: 45px; 
-  visibility: hidden; 
+section::before {
+  display: block;
+  content: " ";
+  margin-top: -45px;
+  height: 45px;
+  visibility: hidden;
   pointer-events: none;
 }
 
@@ -311,7 +311,7 @@ background: $color-primary-1;
 	left: 0;
 	width: 100%;
 	z-index:9999;
-	
+
 }
 
 .menu {
@@ -356,11 +356,11 @@ background: $color-primary-1;
 
 .bg-image {
   /* The image used */
-  background-image: url("images/stove-banner2.jpg");
+  background-image: url("images/ironheart1.jpg");
 	background-color: $background-banner;
   /* Add the blur effect */
-  filter: blur(4px);
-  -webkit-filter: blur(4px);
+  filter: blur(2px);
+  -webkit-filter: blur(2px);
 
   /* Full height */
   height: 100vh;
