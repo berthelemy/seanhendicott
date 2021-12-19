@@ -6,7 +6,7 @@
                 {% if image.path contains galleryname %}
 
                 <div class="col_4">
-                        <a href="{{ site.baseurl }}{{ image.path }}"><img title="{{ image.basename }}" src="{{ site.baseurl }}{{ image.path }}" class="caption constrain-img" alt="{{ image.basename }}" /></a>
+                        <a href="{{ site.baseurl }}{{ image.path }}"><img title="{{ image.basename }}" src="{{ site.baseurl }}{{ image.path }}" class="constrain-img" alt="{{ image.basename }}" /></a>
                 </div>
                     {% if count == max-count %}
                         {% assign count = 0 %}
