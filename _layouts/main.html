@@ -2,7 +2,7 @@
 layout: default
 ---
         {% capture pagelang %}{{ page.language }}{% endcapture %}
-        {% assign sections=site.sections | where:"lang", pagelang %}
+        {% assign sections=site.sections | where:"lang", pagelang | sort:'order' %}
         {% for s in sections %}
             <section id="{{ s.ref }}" class="{{ s.section-class }} {{ s.background }} wide">
                 <div class="col_12">
@@ -11,6 +11,9 @@ layout: default
 
                 {% if s.title == "Services" %}
                     {% include gallery.html gallery="gallery-sample" %}
+                {% endif %}
+                {% if s.title == "Esse Ironheart" %}
+                    {% include gallery.html gallery="gallery-ironheart" %}
                 {% endif %}
 
                 {% if s.section-image %}

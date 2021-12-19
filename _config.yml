@@ -65,6 +65,9 @@ t:
     products:
       name: "Products"
       url: "#products"
+    ironheart:
+      name: "Esse Ironheart"
+      url: "#ironheart"
     services:
       name: "Services"
       url: "#services"
@@ -109,6 +112,9 @@ t:
     products:
       name: "Produits"
       url: "#products"
+    ironheart:
+      name: "Esse Ironheart"
+      url: "#ironheart"
     services:
       name: "Services"
       url: "#services"

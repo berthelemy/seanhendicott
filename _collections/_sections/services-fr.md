@@ -1,9 +1,10 @@
 ---
 title: Services
+order: 4
 lang: fr
 ref: services
 section-class: ''
-background: background3
+background: background1
 section-image:
 img-alt:
 img-side: right
