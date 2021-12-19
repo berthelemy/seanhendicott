@@ -21,8 +21,8 @@ suppliers:
     logo: assets/images/logos/esse-nav-logo.jpg
     desc1: "Cuisinières et poêles à bois avec possibilité eau chaude sanitaire, cuisinières électrique"
     desc2: "Nous sommes le seul fournisseur et installateur approuvé par Esse en Bretagne"
-    morediv: esse-ironheart
-    moretext: Plus d'information du Esse Ironheart
+    morediv:
+    moretext: 
   - name: Joule UK
     url: https://jouleuk.co.uk/
     logo: assets/images/logos/joule_logo_white.svg

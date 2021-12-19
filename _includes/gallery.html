@@ -1,11 +1,11 @@
 <div class="gallery center">
     {% capture galleryname %}{{ include.gallery }}{% endcapture %}
     {% assign count = 0 %}
-    {% assign max-count = 3 %}
+    {% assign max-count = 2 %}
             {% for image in site.static_files %}
                 {% if image.path contains galleryname %}
 
-                <div class="col_3">
+                <div class="col_4">
                         <a href="{{ site.baseurl }}{{ image.path }}"><img title="{{ image.basename }}" src="{{ site.baseurl }}{{ image.path }}" class="caption constrain-img" alt="{{ image.basename }}" /></a>
                 </div>
                     {% if count == max-count %}

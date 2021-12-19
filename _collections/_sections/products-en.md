@@ -21,9 +21,9 @@ suppliers:
     logo: assets/images/logos/esse-nav-logo.jpg
     desc1: "Ironheart wood & electric ranges"
     desc2: "We are Esse’s approved supplier/installers for Brittany"
-    morediv: esse-ironheart
-    moretext: More information on the Esse Ironheart
-    moreurl: ironheart
+    morediv: 
+    moretext:
+    moreurl:
   - name: Joule UK
     url: https://jouleuk.co.uk/
     logo: assets/images/logos/joule_logo_white.svg
