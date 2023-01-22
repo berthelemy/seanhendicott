@@ -1,11 +1,11 @@
 {% include head.html lang=page.language %}
 <body>
 <div class="grid">
-    
-        
+
+
         {% capture pagelang %}{{ page.language }}{% endcapture %}
         {% if page.title == "switcher" %}
-        
+
         <section id="banner" class="wide full-height">
             <div class="bg-image"></div>
             <div class="bg-text">
@@ -21,7 +21,7 @@
                     <h4 class="margin40">English</h4>
                     <img class="flag" alt="UK flag" src="{{ 'assets/images/GB.svg' | relative_url }}" />
                     </a>
-                </div>                
+                </div>
             </div>
         </section>
         {% else %}
@@ -34,17 +34,17 @@
                 <h4 style="margin-bottom:40px;">{{ site.t[lang].description.name }}</h4>
 
                 <a href="#about" class="button">{{ site.t[lang].find-out.name }}</a>
-            
+
             </div>
-            
+
         </section>
         {% endif %}
-        
+
 
 
         {{ content }}
-        
-        
+
+
 </div> <!-- End Grid -->
 {% include javascripts.html %}
 </body>
