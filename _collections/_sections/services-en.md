@@ -1,6 +1,6 @@
 ---
 title: Services
-order: 4
+order: 3
 lang: en
 ref: services
 section-class: 'full-height'

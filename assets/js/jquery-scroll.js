@@ -2,10 +2,10 @@ $( document ).ready(function() { // Tells the function to wait to preform until 
         $(window).scroll(function() { // Says this function is preformed continuisly while scrolling.
             var Scroll = $(window).scrollTop() + 1, // This variable finds the distance you have scrolled from the top.
                         SectionOneOffset = $('body').offset().top, // This variable finds the distance between #section-one and the top. Replace #section-one with the ID of your section.
-                        SectionTwoOffset = $('#about').offset().top, // This variable finds the distance between #section-two and the top. Replace #section-two with the ID of your section. You can duplicate this for as many sections as you want.
+                        SectionTwoOffset = $('#ironheart').offset().top, // This variable finds the distance between #section-two and the top. Replace #section-two with the ID of your section. You can duplicate this for as many sections as you want.
                         SectionThreeOffset = $('#products').offset().top,
-                        SectionFourOffset = $('#ironheart').offset().top,
-                        SectionFiveOffset = $('#services').offset().top,
+                        SectionFourOffset = $('#services').offset().top,
+                        SectionFiveOffset = $('#about').offset().top,
 
                         //SectionFiveOffset = $('#photos').offset().top,
                         SectionSixOffset = $('#testimonials').offset().top,

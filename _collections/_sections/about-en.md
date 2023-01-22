@@ -1,6 +1,6 @@
 ---
 title: About
-order: 1
+order: 4
 lang: en
 ref: about
 section-class: 'full-height'

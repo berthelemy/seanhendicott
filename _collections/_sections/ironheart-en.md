@@ -1,6 +1,6 @@
 ---
 title: Esse Ironheart
-order: 3
+order: 1
 lang: en
 ref: ironheart
 section-class: 'full-height'
