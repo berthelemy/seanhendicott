@@ -37,27 +37,18 @@ tags.async=!0,tags.src="https://berthelemy.containers.piwik.pro/"+id+".js"+qPStr
             </div>
         </section>
         {% else %}
-        {% include navbar.html %}
-        <section id="banner" class="wide full-height">
-            <div class="bg-image"></div>
-            <div class="bg-text">
-                <h1>
-                {{ site.title }}</h1>
-                <h4 style="margin-bottom:40px;">{{ site.t[lang].description.name }}</h4>
 
-                <a href="#about" class="button">{{ site.t[lang].find-out.name }}</a>
 
-            </div>
 
-        </section>
         {% endif %}
 
-
+        <h1>{{ site.title }}</h1>
+        <h2>{{ page.title }}</h2>
 
         {{ content }}
 
 
 </div> <!-- End Grid -->
-{% include javascripts.html %}
+
 </body>
 </html>
